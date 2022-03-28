@@ -11,7 +11,9 @@ function Frame() {
 	};
 	return (
 		<div>
-			<Document file="/BendingAnswered.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+			<Document
+				file="/BendingAnswered.pdf"
+				onLoadSuccess={onDocumentLoadSuccess}>
 				{Array.apply(null, Array(numPages))
 					.map((x, i) => i + 1)
 					.map((page) => (
