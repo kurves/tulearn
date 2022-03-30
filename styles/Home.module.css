@@ -42,3 +42,14 @@
     }
     
 }
+
+
+@media screen and (max-width: 500px) {
+	.footer {
+	padding:1.5rem;
+  height:2%;
+		
+		
+		
+	}
+}

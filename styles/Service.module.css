@@ -5,15 +5,18 @@
    border:transparent;
     font-size:1.5rem;
     cursor:pointer;
-    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow:0 4px 10px 0 rgba(10,0,0,0.2);
   transition:0.2;
   margin-top:0.5rem;
+  
 
 }
 
 @media screen and (max-width:500px) {
     .servicesbtn{
   padding:0.2rem;
+  font-size:1.5rem;
+  
     }
     
 }

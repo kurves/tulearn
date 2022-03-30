@@ -19,7 +19,7 @@ function Landing() {
 				height={300}
 			/>
 			<div className={styles.description}>
-				<h3 style={{ color: "purple", marginLeft: "4rem", fontSize: "3rem" }}>
+				<h3 className={styles.welcome}>
 					Karibu TuLearn
 				</h3>
 				<p style={{ fontSize: "1.2rem" }}>
@@ -35,7 +35,7 @@ function Landing() {
 				<Link href="./units">
 				<Service
 					description="Test your knowledge on various topics."
-					title="Revision Questions"
+					title={"Access Revision  Questions"}
 				/>
 				</Link>
 			</div>
