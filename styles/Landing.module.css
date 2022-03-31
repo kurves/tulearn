@@ -110,8 +110,7 @@ width:100%;
   display: flex;
   flex: 1;
   padding:6rem 0;
-  border: 3px solid blue;
-  border-style:dotted;
+  
   justify-content:space-around;
   align-items: space-around;
   height:26vh;
@@ -121,14 +120,7 @@ width:100%;
   margin-top:6rem;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-  font-size:6rem;
-  
-}
+
 
 
 
@@ -138,11 +130,9 @@ width:100%;
 	.footer {
 	
 	font-size:small;
-
-		height:2vh;
+line-height:1.2rem;
 		
-		
-		
+	padding-top:2rem;	
 	}
 }
 
