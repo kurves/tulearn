@@ -5,7 +5,7 @@
 	flex-direction: column;
 	border-radius: 5px;
 	text-align: center;
-	
+	height:100%;
 	text-decoration: underline;
 	color: white;
   
@@ -16,15 +16,6 @@
 
 
 
-@media screen and (max-width: 500px) {
-	.unitsdiv{
-		
-	
-		
-		
-		
-	}
-}
 
 .unitsbtn {
 	padding: 0.5rem;
@@ -67,8 +58,8 @@ color:blueviolet;
 	
 		height:100%;
 		margin-left:-1rem;
-		margin-bottom:6rem;
-		padding-bottom:4rem;
+	
+		padding-bottom:9rem;
 		
 	}
 }
