@@ -18,17 +18,7 @@ export default function Home() {
 			<Landing />
    
 
-			<footer className={styles.footer}>
-				Proudly brought to you by
-				
-				<span className={styles.logo}>
-					<Image
-						src="/welearn.jpg"
-						width={200}
-						height={150}
-					/>
-				</span>
-			</footer>
+			
 		</div>
 	);
 }

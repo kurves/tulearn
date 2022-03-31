@@ -5,7 +5,7 @@
 	flex-direction: column;
 	border-radius: 5px;
 	text-align: center;
-	height: 80vh;
+	
 	text-decoration: underline;
 	color: white;
   
@@ -19,7 +19,7 @@
 @media screen and (max-width: 500px) {
 	.unitsdiv{
 		
-	height:	50vh;
+	
 		
 		
 		
@@ -43,9 +43,7 @@
 background-color:purple;
 color:blueviolet;
 }
-.unitsbtnhidden{
-	display:none;
-}
+
 
 
 .unitsbtn :hover 
@@ -59,4 +57,29 @@ color:blueviolet;
 .unitscontainer {
 	background-color: black;
 
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+	.unitsdiv {
+	
+		height:100%;
+		margin-left:-1rem;
+		margin-bottom:6rem;
+		padding-bottom:4rem;
+		
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.unitsbtn {
+	padding:0.5rem;
+
+		
+		
+		
+		
+	}
 }

@@ -1,16 +1,9 @@
 .landing {
-	height: 450vh;
+
 	margin-top: -2rem;
 }
 
-@media screen and (max-width: 500px) {
-	.landing {
-		height:330vh;
-		
-		
-		
-	}
-}
+
 
 
 
@@ -21,12 +14,40 @@
 	font-weight: medium;
 	margin: 0, 2rem;
 	background-image: url("/bgwelearn.png");
-	height: 80vh;
+	height: 70vh;
 	justify-content: center;
 	padding-top: 8rem;
 	padding-left: 3rem;
 	color: white;
 }
+
+
+.description p {
+	padding-bottom:6rem;
+}
+@media screen and (max-width: 500px) {
+	.description {
+	
+height:max-content;
+width:100%;
+
+
+		
+		
+	}
+}
+
+
+@media screen and (max-width: 500px) {
+	.description p {
+	margin-left:-2rem;
+		font-size:small;
+		
+		padding-bottom:6rem;
+	}
+}
+
+
 
 .welcome{
 	color: purple;
@@ -38,8 +59,9 @@
 
 @media screen and (max-width: 500px) {
 	.welcome {
-		margin-left:1.1rem;
-		
+		margin-left:-1.5rem;
+		justify-content:center;
+		font-size:1.6rem;
 		
 		
 	}
@@ -63,18 +85,18 @@
 	border-radius: 5px;
 	margin-top: 4rem;
 	text-align: center;
-	height: 90vh;
+	height: 50vh;
 	border: 4px solid purple;
-	width: 60%;
+	width: 70%;
 	margin-left: 20%;
 }
 
 @media screen and (max-width: 500px) {
 	.servicesdiv {
-		height: 60vh;
-		width: 90%;
+	height:70vh;
+		width: 100%;
 		margin-bottom: 0rem;
-		margin-left:1rem;
+	margin-left:-0.1rem;
 		
 	}
 }
@@ -82,3 +104,47 @@
 .container {
 	margin-top: 5rem;
 }
+
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding:6rem 0;
+  border: 3px solid blue;
+  border-style:dotted;
+  justify-content:space-around;
+  align-items: space-around;
+  height:26vh;
+  flex-direction:row;
+  font-size:1.2rem;
+  font-weight:medium;
+  margin-top:6rem;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  font-size:6rem;
+  
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+	.footer {
+	
+	font-size:small;
+
+		height:2vh;
+		
+		
+		
+	}
+}
+
+
+
