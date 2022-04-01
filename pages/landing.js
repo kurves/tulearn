@@ -20,8 +20,8 @@ function Landing() {
 			/>
 			<div className={styles.description}>
 				<div className={styles.welcome}>
-					<h3 style={{ paddingLeft: "6rem" }}>Karibu </h3>
-					<h3 className={styles.welcome_karibu}style={{letterSpacing:'1.8rem'}}>TuLearn</h3>
+					<h3 style={{ paddingLeft: "5rem" }}>Karibu </h3>
+					<h3 className={styles.welcome_karibu}style={{letterSpacing:'1.9rem'}}>TuLearn</h3>
 				</div>
 				<p style={{ fontSize: "1.2rem" }}>
 					Explore Tulearn for revision questions, notes from trainers, <br />{" "}
