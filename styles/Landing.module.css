@@ -17,7 +17,7 @@
 	height: 90vh;
 	justify-content: center;
 	padding-top: 8rem;
-	padding-left: 3rem;
+	padding-left: 4rem;
 	color: white;
 }
 
@@ -40,7 +40,7 @@ width:100%;
 
 @media screen and (max-width: 500px) {
 	.description p {
-	margin-left:-2rem;
+	margin-left:-1.5rem;
 		font-size:small;
 		padding-bottom:7rem;
 	
