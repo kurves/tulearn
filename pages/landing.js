@@ -19,7 +19,10 @@ function Landing() {
 				height={300}
 			/>
 			<div className={styles.description}>
-				<h3 className={styles.welcome}>Karibu TuLearn</h3>
+				<div className={styles.welcome}>
+					<h3 style={{ paddingLeft: "8rem" }}>Karibu </h3>
+					<h3 className={styles.welcome_karibu}style={{letterSpacing:'1.5rem'}}>TuLearn</h3>
+				</div>
 				<p style={{ fontSize: "1.2rem" }}>
 					Explore Tulearn for revision questions, notes from trainers, <br />{" "}
 					worked out examples, questions and answers from learners and much
@@ -30,7 +33,7 @@ function Landing() {
 				<div className={styles.servicesdiv}>
 					<Image src="/notes.jpg" height={300} width={260} />
 
-					<Link href="./units">
+					<Link href="/units"passHref>
 						<Service
 							description="Test your knowledge on various topics."
 							title={" Revision  Questions"}
@@ -40,7 +43,7 @@ function Landing() {
 
 				<div className={styles.servicesdiv}>
 					<Image src="/symbols.png" height={300} width={200} />
-					<Link href="./units" passHref>
+					<Link href="/units" passHref>
 						<Service
 							description="These worked out examples will guide you through as you learn."
 							title="Worked Out Examples"
@@ -50,7 +53,7 @@ function Landing() {
 
 				<div className={styles.servicesdiv}>
 					<Image src="/rover.png" height={300} width={200} />
-					<Link href="./units" passHref>
+					<Link href="/units" passHref>
 						<Service
 							description="Get more indepth knowledge on various complex topics."
 							title="Update your Notes"

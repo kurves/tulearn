@@ -10,8 +10,11 @@
   transition:0.2;
   margin:1rem 0.7rem;
   
-  
 
+}
+.servicesbtn a {
+font-size:1.2rem;
+ 
 }
 
 @media screen and (max-width:500px) {
@@ -19,6 +22,17 @@
   padding:0.1rem;
   font-size:1.2rem;
   margin:2rem   0.5rem;
+  
+    }
+    
+}
+
+
+@media screen and (max-width:500px) {
+    .servicesbtn a{
+
+  font-size:1.6rem;
+
   
     }
     

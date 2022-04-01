@@ -13,15 +13,18 @@ function Stress(){
 
   const onDocumentLoadSuccess = ({ numPages }) => {
     setNumPages(numPages);
-  };
+};
     return (
 			<div>
 				<Document file="/Stresses.pdf"
+				
                     onLoadSuccess={onDocumentLoadSuccess}>
 					{Array.apply(null, Array(numPages))
 						.map((x, i) => i + 1)
 						.map((page) => (
+						<li key={page}>
 							<Page pageNumber={page} />
+					</li>
 						))}
 				</Document>
 			</div>
