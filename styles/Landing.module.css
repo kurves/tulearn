@@ -125,10 +125,10 @@ width:max-content;
 
 @media screen and (max-width: 500px) {
 	.servicesdiv {
-	height:75vh;
+	height:80vh;
 		width: 100vw;
 	
-	margin-left:50%;
+	margin-left:65%;
 
 		
 	}
@@ -166,7 +166,10 @@ width:max-content;
 line-height:1.2rem;
 		width:100%;
 	padding-top:2rem;	
-	padding-left:3rem;
+	padding-left:6rem;
+ justify-content:space-around;
+  align-items: space-around;
+
 	}
 }
 
