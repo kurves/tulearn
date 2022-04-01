@@ -73,6 +73,19 @@ width:max-content;
 		
 	}
 }
+.karibu{
+	padding-left:5rem;
+}
+
+@media screen and (max-width:500px) {
+    .karibu{
+  padding-left:12rem;
+ 
+  
+    }
+    
+}
+
 
 
 
@@ -112,10 +125,10 @@ width:max-content;
 
 @media screen and (max-width: 500px) {
 	.servicesdiv {
-	height:70vh;
-		width: 100%;
+	height:75vh;
+		width: 100vw;
 	
-	margin-left:20%;
+	margin-left:50%;
 
 		
 	}
@@ -151,8 +164,9 @@ width:max-content;
 	
 	font-size:small;
 line-height:1.2rem;
-		
+		width:100%;
 	padding-top:2rem;	
+	padding-left:3rem;
 	}
 }
 

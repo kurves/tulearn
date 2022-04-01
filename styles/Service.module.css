@@ -13,14 +13,14 @@
 
 }
 .servicesbtn a {
-font-size:1.2rem;
+font-size:1.1rem;
  
 }
 
 @media screen and (max-width:500px) {
     .servicesbtn{
   padding:0.1rem;
-  font-size:1.2rem;
+  font-size:1.1rem;
   margin:2rem   0.5rem;
   
     }
