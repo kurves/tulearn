@@ -4,18 +4,20 @@ import {Worker} from '@react-pdf-viewer/core'
 import {Viewer} from '@react-pdf-viewer/core'
  import "@react-pdf-viewer/core/lib/styles/index.css";
 
+import en_US from "@react-pdf-viewer/locales/lib/en_US.json";
+
+
+
+
+
 function Frame() {
 return (
-		<div
-		style={{height:"750px"}}>
-
-<Worker workerUrl="https://unpkg.com/pdfjs-dist@2.13.216/build/pdf.worker.min.js">
-<Viewer 
-text="i love you doc"
-fileUrl="/bendingsRevision.pdf"/>
-</Worker>
+	<div style={{ height: "750px" }}>
+		<Worker workerUrl="https://unpkg.com/pdfjs-dist@2.13.216/build/pdf.worker.min.js">
+			<Viewer fileUrl="/bendingsRevision.pdf" localization={en_US} />
+		</Worker>
 	</div>
-	);
+);
 }
 export default Frame;
 
