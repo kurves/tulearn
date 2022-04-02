@@ -11,10 +11,14 @@ return (
 
 <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.13.216/build/pdf.worker.min.js">
 <Viewer 
-
-fileUrl="/bendingsAnswered.pdf"/>
+text="i love you doc"
+fileUrl="/bendingsRevision.pdf"/>
 </Worker>
 	</div>
 	);
 }
 export default Frame;
+
+
+
+

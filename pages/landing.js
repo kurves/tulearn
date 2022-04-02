@@ -1,14 +1,9 @@
 import Image from "next/image";
 import styles from "../styles/Landing.module.css";
 import Service from "../components/services";
-import { useRouter } from "next/router";
-import Units from './units'
-
 import Link from 'next/link'
 
 function Landing() {
-
-
 	return (
 		<div className={styles.landing}>
 			<Image
@@ -21,7 +16,11 @@ function Landing() {
 			<div className={styles.description}>
 				<div className={styles.welcome}>
 					<h3 className={styles.karibu}>Karibu </h3>
-					<h3 className={styles.welcome_karibu}style={{letterSpacing:'1.9rem'}}>TuLearn</h3>
+					<h3
+						className={styles.welcome_karibu}
+						style={{ letterSpacing: "2rem" }}>
+						TuLearn
+					</h3>
 				</div>
 				<p style={{ fontSize: "1.2rem" }}>
 					Explore Tulearn for revision questions, notes from trainers, <br />{" "}
@@ -31,9 +30,9 @@ function Landing() {
 			</div>
 			<div className={styles.container}>
 				<div className={styles.servicesdiv}>
-					<Image src="/notes.jpg" height={300} width={260} />
+					<Image src="/notes2.jpg" height={300} width={260} />
 
-					<Link href="/units"passHref>
+					<Link href="/units" passHref>
 						<Service
 							description="Test your knowledge on various topics."
 							title={" Revision  Questions"}
@@ -62,13 +61,10 @@ function Landing() {
 					<div />
 				</div>
 			</div>
-			<div>
-				<footer className={styles.footer}>
-				
-					Proudly brought to you by
-					<span className={styles.logo}>
-						<Image src="/welearn.jpg" width={200} height={150} />
-					</span>
+			<div className={styles.footer}>
+				Proudly brought to you by
+				<footer>
+					<Image src="/welearn.jpg" width={200} height={150} />
 				</footer>
 			</div>
 		</div>

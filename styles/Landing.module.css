@@ -1,14 +1,6 @@
 .landing {
-
-	margin-top: -2rem;
+margin-top: -2rem;
 }
-
-
-
-
-
-
-
 .description {
 	font-size: 1rem;
 	font-weight: medium;
@@ -30,14 +22,9 @@
 	
 height:max-content;
 width:max-content;
-
-
-		
 		
 	}
 }
-
-
 @media screen and (max-width: 500px) {
 	.description p {
 	margin-left:-1.5rem;
@@ -46,8 +33,6 @@ width:max-content;
 	
 	}
 }
-
-
 
 .welcome{
 	color: purple;
@@ -58,10 +43,8 @@ width:max-content;
 }
 
 .welcome_karibu{
-	font-size:2.2rem;
+	font-size:3rem;
 }
-
-
 
 @media screen and (max-width: 500px) {
 	.welcome {
@@ -85,22 +68,11 @@ width:max-content;
     }
     
 }
-
-
-
-
 @media screen and (max-width: 500px) {
 	.welcome_karibu {
-	
-	
 		padding-left:4.5rem;
-		
+		}
 	}
-}
-
-
-
-
 .servicesbtn:hover {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
 	color: white;
@@ -113,12 +85,10 @@ width:max-content;
 	transition: 0.3s;
 	display: flex;
 	flex-direction: column;
-
-	border-radius: 5px;
+border-radius: 5px;
 	margin-top: 4rem;
 	text-align: center;
-
-	width: 70%;
+width: 60%;
 	margin-left: 20%;
 	padding-bottom:4rem;
 }
@@ -126,9 +96,8 @@ width:max-content;
 @media screen and (max-width: 500px) {
 	.servicesdiv {
 	height:80vh;
-		width: 100vw;
-	
-	margin-left:65%;
+		width: 130vw;
+	margin-left:68%;
 
 		
 	}
@@ -138,38 +107,26 @@ width:max-content;
 	margin-top: 5rem;
 }
 
-
 .footer {
   display: flex;
   flex: 1;
-  padding:6rem 0;
+  padding:5rem 0;
+  padding-left:20rem;
+  height:22vh;
   
-  justify-content:space-around;
-  align-items: space-around;
-  height:26vh;
-  flex-direction:row;
-  font-size:1.2rem;
+  font-size:1.1rem;
   font-weight:medium;
   margin-top:6rem;
+  width:max-content;
+  
 }
 
-
-
-
-
-
-
 @media screen and (max-width: 500px) {
-	.footer {
-	
+	.footer {	
 	font-size:small;
-line-height:1.2rem;
-		width:100%;
+line-height:1.2rem;	
 	padding-top:2rem;	
-	padding-left:6rem;
- justify-content:space-around;
-  align-items: space-around;
-
+	padding-left:19rem;
 	}
 }
 

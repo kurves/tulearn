@@ -1,5 +1,4 @@
 
-
 import {Worker} from '@react-pdf-viewer/core'
 import {Viewer} from '@react-pdf-viewer/core'
  import "@react-pdf-viewer/core/lib/styles/index.css";
@@ -11,10 +10,26 @@ return (
 
 <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.13.216/build/pdf.worker.min.js">
 <Viewer 
-
-fileUrl="/bendingsAnswered.pdf"/>
+text="i love you doc"
+fileUrl="/strutsNotes.pdf"/>
 </Worker>
 	</div>
 	);
 }
 export default Frame;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
