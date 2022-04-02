@@ -41,7 +41,9 @@ function Landing() {
 				</div>
 
 				<div className={styles.servicesdiv}>
-					<Image src="/symbols.png" height={300} width={200} />
+					<Image src="/symbols.png" 
+					priority
+					height={300} width={200} />
 					<Link href="/units" passHref>
 						<Service
 							description="These worked out examples will guide you through as you learn."

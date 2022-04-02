@@ -14,16 +14,16 @@ function Units() {
 					/>
 
 				<div className={styles.btndiv}>
-					<Link href="./stressRevision" passHref>
+					<Link href="/stressRevision" passHref>
 						<Unit title="Revision Questions" />
 					</Link>
-					<Link href="./stressAnswered" passHref>
+					<Link href="/stressAnswered" passHref>
 						
 						
 						<Unit title1="Worked out Examples" />
 					</Link>
 
-					<Link href="./stressNotes" passHref>
+					<Link href="/stressNotes" passHref>
 						<Unit title2="Click for Notes" />
 					</Link>
 				</div>
@@ -36,13 +36,13 @@ function Units() {
 					topic3="Theory of Simple Bending"></Unit>
 
 				<div className={styles.btndiv}>
-					<Link href="./bendingRevision" passHref>
+					<Link href="/bendingRevision" passHref>
 						<Unit title="Revision Questions" />
 					</Link>
-					<Link href="./bendingAnswered" passHrref>
+					<Link href="/bendingAnswered" passHrref>
 						<Unit title1="Worked out Examples" />
 					</Link>
-					<Link href="./bendingNotes" passHref>
+					<Link href="/bendingNotes" passHref>
 						<Unit title2="Click for Notes" />
 					</Link>
 				</div>
@@ -55,13 +55,13 @@ function Units() {
 					topic2="Analysis of Simple Plane Frames"></Unit>
 
 				<div className={styles.btndiv}>
-					<Link href="./strutRevision" passHref>
+					<Link href="/strutRevision" passHref>
 						<Unit title="Revision Questions" />
 					</Link>
-					<Link href="./strutAnswered" passHref>
+					<Link href="/strutAnswered" passHref>
 						<Unit title1="Worked out Examples" />
 					</Link>
-					<Link href="./strutNotes" passHref>
+					<Link href="/strutNotes" passHref>
 						<Unit title2="Click for Notes" />
 					</Link>
 				</div>
