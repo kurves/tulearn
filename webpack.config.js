@@ -5,7 +5,7 @@ const webpack = require("webpack");
 
 module.exports = {
 	entry: {
-		main: "./src/index.js",
+		main: "./index.js",
 		"pdf.worker": path.join(
 			__dirname,
 			"./node_modules/pdfjs-dist/build/pdf.worker.js"
