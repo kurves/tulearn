@@ -10,7 +10,7 @@ return(
       <button 
        type="button"
        className={styles.servicesbtn}>
-        <a href={href} ref={ref}onClick={onClick}>{title}{title2}{title1}</a>
+        <a href={href}  ref={ref}onClick={onClick}>{title}{title2}{title1}</a>
         </button>
       
     </div>

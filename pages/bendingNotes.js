@@ -1,7 +1,7 @@
+import * as React from 'react'
 
+import {Worker,Viewer} from '@react-pdf-viewer/core'
 
-import {Worker} from '@react-pdf-viewer/core'
-import {Viewer} from '@react-pdf-viewer/core'
  import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 
@@ -16,15 +16,17 @@ function Frame() {
 
 
 return (
-	<div style={{ height: "750px", width:"100%"}}>
+	
 		<Worker workerUrl="https://unpkg.com/pdfjs-dist@2.13.216/build/pdf.worker.js">
+			<div style={{ height: "750px", width:"100%"}}>
 			<Viewer
 				fileUrl="/bendingsNotes.pdf"
-				localization={en_US}
+				locale={en_US}
 				plugins={[defaultLayoutPluginInstance]}
 			/>
+			</div>
 		</Worker>
-	</div>
+	
 );
 }
 export default Frame;
