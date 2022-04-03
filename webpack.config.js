@@ -12,6 +12,13 @@ module.exports = {
 			"./node_modules/pdfjs-dist/build/pdf.worker.js"
 		),
 	},
+	resolve:{
+		extensions:['.js','.jsx','.ts','.tsx'],
+		alias:{
+			'pfjs-dist':path.resolve('./node_modules/pdfjs-dist/legacy/build/pdf.js')
+		}
+
+	},
 
 	output: {
 		path: path.join(__dirname, "dist"),
