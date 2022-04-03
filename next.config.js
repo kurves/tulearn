@@ -14,7 +14,3 @@ module.exports = {
 		ignoreDuringBuilds: true,
 	},
 };
-
-module.exports = {
-	reactStrictMode: true,
-};
