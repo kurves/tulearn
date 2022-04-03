@@ -1,13 +1,28 @@
-const path = require('path');
+const path = require("path");
+
+const path = require("path");
+const webpack = require("webpack");
 
 module.exports = {
-    entry: 'node_modules / pdfjs - dist / legacy/ build / pdf.worker.min.js;',
-   
-    resolve: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
-        alias: {
+	entry: {
+		main: "./src/index.js",
+		"pdf.worker": path.join(
+			__dirname,
+			"./node_modules/pdfjs-dist/build/pdf.worker.js"
+		),
+	},
 
-            'pdfjs-dist': path.resolve('./node_modules/pdfjs-dist/legacy/build/pdf.js'),
-        },
-    },
+	output: {
+		path: path.join(__dirname, "dist"),
+		filename: "[name].bundle.js",
+	},
+
+	plugins: [
+		new webpack.NormalModuleReplacementPlugin(/^pdfjs-dist$/, (resource) => {
+			resource.request = path.join(
+				__dirname,
+				"./node_modules/pdfjs-dist/webpack"
+			);
+		}),
+	],
 };
