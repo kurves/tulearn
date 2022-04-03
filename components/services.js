@@ -3,7 +3,7 @@ import React from 'react'
 
 
 
-const Service = React.forwardRef(function Service({description,onClick,href,title2,title1,title,ref }){
+const Service = React.forwardRef(({description,onClick,href,title2,title1,title },ref)=>{
 return(
     <div>
         <h3>{description}</h3>
