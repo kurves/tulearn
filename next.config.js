@@ -15,3 +15,6 @@ module.exports = {
 	},
 };
 
+module.exports = {
+	reactStrictMode: true,
+};

@@ -4,13 +4,14 @@
 .description {
 	font-size: 1rem;
 	font-weight: medium;
-	margin: 0, 2rem;
-	background-image: url("/bgwelearn.png");
+	margin: 0, 1rem;
+	background-image:  url("/bgwelearn.png");
 	height: 90vh;
 	justify-content: center;
 	padding-top: 8rem;
 	padding-left: 4rem;
 	color: white;
+	margin-left:-1.4rem;
 }
 
 .description p {
@@ -19,7 +20,8 @@
 @media screen and (max-width: 500px) {
 	.description {
 		height: max-content;
-		width: max-content;
+	width:max-content;
+		
 	}
 }
 @media screen and (max-width: 500px) {
@@ -27,6 +29,7 @@
 		margin-left: -1.5rem;
 		font-size: small;
 		padding-bottom: 7rem;
+		
 	}
 }
 
@@ -87,9 +90,14 @@
 	.servicesdiv {
 		height: 80vh;
 		width: 130vw;
-		margin-left: 68%;
+		margin-left: 35%;
+		font-size:1.4rem;
+	
 	}
 }
+
+
+
 
 .container {
 	margin-top: 5rem;
@@ -113,6 +121,6 @@
 		font-size: small;
 		line-height: 1.2rem;
 		padding-top: 2rem;
-		padding-left: 19rem;
+		padding-left: 20rem;
 	}
 }

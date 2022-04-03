@@ -2,8 +2,8 @@ import styles from "../styles/Units.module.css";
 
 import React from "react";
 
-const Unit = React.forwardRef(
-	(
+const Unit = React.forwardRef(function Unit(
+	
 		{
 			onClick,
 			href,
@@ -14,10 +14,11 @@ const Unit = React.forwardRef(
 			topic1,
 			topic2,
 			topic3,
+			ref
 			
-		},
-		ref
-	) => {
+		})
+	
+	 {
 		return (
 			<div className={styles.unitcard}>
 				<ul>
@@ -30,7 +31,7 @@ const Unit = React.forwardRef(
 				</ul>
 				<div className={styles.unitsbtndiv}>
 					<button type="button" className={styles.unitsbtn }> 
-						<a href={href} onClick={onClick}>
+						<a href={href} ref={ref} onClick={onClick}>
 							{title}
 							{title1}
 							{title2}

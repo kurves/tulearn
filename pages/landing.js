@@ -30,7 +30,10 @@ function Landing() {
 			</div>
 			<div className={styles.container}>
 				<div className={styles.servicesdiv}>
-					<Image src="/notes2.jpg" height={300} width={260} />
+					<Image src="/notes2.jpg" 
+					priority
+					height={300} width={260} 
+					alt=''/>
 
 					<Link href="/units" passHref>
 						<Service
@@ -43,7 +46,9 @@ function Landing() {
 				<div className={styles.servicesdiv}>
 					<Image src="/symbols.png" 
 					priority
-					height={300} width={200} />
+					height={300} width={200} 
+					alt=''
+					/>
 					<Link href="/units" passHref>
 						<Service
 							description="These worked out examples will guide you through as you learn."
@@ -53,20 +58,27 @@ function Landing() {
 				</div>
 
 				<div className={styles.servicesdiv}>
-					<Image src="/rover.png" height={300} width={200} />
+					<Image src="/rover.png" 
+					priority
+					height={300} width={200}
+					alt=''
+					/>
 					<Link href="/units" passHref>
 						<Service
 							description="Get more indepth knowledge on various complex topics."
 							title="Update your Notes"
 						/>
 					</Link>
+
 					<div />
 				</div>
 			</div>
 			<div className={styles.footer}>
 				Proudly brought to you by
 				<footer>
-					<Image src="/welearn.jpg" width={200} height={150} />
+					<Image src="/welearn.jpg" 
+					alt=''
+					width={200} height={150} />
 				</footer>
 			</div>
 		</div>
