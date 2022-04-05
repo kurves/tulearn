@@ -6,7 +6,6 @@ import {Worker,Viewer} from '@react-pdf-viewer/core'
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 
 
-import en_US from "@react-pdf-viewer/locales/lib/en_US.json";
 
 import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout";
 
@@ -21,7 +20,7 @@ return (
 			<div style={{ height: "750px", width:"100%"}}>
 			<Viewer
 				fileUrl="/bendingsNotes.pdf"
-				locale={en_US}
+			
 				plugins={[defaultLayoutPluginInstance]}
 			/>
 			</div>

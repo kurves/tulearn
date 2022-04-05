@@ -6,12 +6,6 @@ import { Viewer, Worker } from "@react-pdf-viewer/core";
 
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
-
-import en_US from "@react-pdf-viewer/locales/lib/en_US.json";
-
-
-
-
 import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout";
 
 
@@ -23,8 +17,7 @@ return (
 	<Worker workerUrl="https://unpkg.com/pdfjs-dist@2.13.216/legacy/build/pdf.worker.js">
 		<div style={{ height: "750px", width: "100%" }}>
 			<Viewer
-				fileUrl="/bendingsNotes.pdf"
-				locale={en_US}
+			
 				plugins={[defaultLayoutPluginInstance]}
 			/>
 		</div>
