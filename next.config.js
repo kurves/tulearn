@@ -8,9 +8,14 @@ const nextConfig = {
 
 module.exports = nextConfig
 
-/*module.exports = {
+module.exports = {
 	eslint: {
 	
 		ignoreDuringBuilds: true,
 	},
-};*/
+};
+
+module.exports = withTM({
+	reactStrictMode: true,
+	webpack5: true,
+});
