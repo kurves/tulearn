@@ -6,8 +6,8 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint",
-		"copy": "rm -rf public && mkdir public && cp ../assets/pdf-open-parameters.pdf public"
+		"lint": "next lint"
+		
 	},
 	"dependencies": {
 		"@react-pdf-viewer/core": "^3.2.0",
