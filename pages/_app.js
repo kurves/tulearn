@@ -4,6 +4,8 @@ import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 
 
+import * as pdfjs from "pdfjs-dist/legacy/build/pdf.js";
+
 
 
 function MyApp({ Component, pageProps }) {

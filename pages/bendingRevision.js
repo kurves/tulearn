@@ -15,7 +15,6 @@ return (
 		<div style={{ height: "750px", width: "100%" }}>
 			<Viewer
 				fileUrl="/bendingsRevision.pdf"
-			
 				plugins={[defaultLayoutPluginInstance]}
 			/>
 		</div>

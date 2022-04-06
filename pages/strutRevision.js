@@ -13,7 +13,6 @@ function Frame() {
 			<div style={{ height: "750px", width: "100%" }}>
 				<Viewer
 					fileUrl="/strutsRevision.pdf"
-				
 					plugins={[defaultLayoutPluginInstance]}
 				/>
 			</div>

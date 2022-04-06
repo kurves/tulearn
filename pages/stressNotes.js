@@ -14,7 +14,6 @@ function Frame() {
 			<div style={{ height: "750px", width: "100%" }}>
 				<Viewer
 					fileUrl="/stressesNotes.pdf"
-				
 					plugins={[defaultLayoutPluginInstance]}
 				/>
 			</div>
