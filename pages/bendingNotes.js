@@ -15,7 +15,7 @@ function Frame() {
 
 
 return (
-	<Worker workerUrl="https://unpkg.com/pdfjs-dist@2.13.216/legacy/build/pdf.worker.js">
+	<Worker workerUrl="https://unpkg.com/pdfjs-dist@2.9.359/legacy/build/pdf.worker.js">
 		<div style={{ height: "750px", width: "100%" }}>
 			<Viewer
 				fileUrl="/bendingsNotes.pdf"

@@ -8,7 +8,7 @@ import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout";
 function Frame() {
 	const defaultLayoutPluginInstance = defaultLayoutPlugin();
 return (
-	<Worker workerUrl="https://unpkg.com/pdfjs-dist@2.13.216/legacy/build/pdf.worker.js">
+	<Worker workerUrl="https://unpkg.com/pdfjs-dist@2.9.359/legacy/build/pdf.worker.js">
 		<div style={{ height: "750px", width: "100%" }}>
 			<Viewer
 				fileUrl="/bendingsAnswered.pdf"
