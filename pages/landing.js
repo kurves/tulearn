@@ -18,7 +18,7 @@ function Landing() {
 					<h3 className={styles.karibu}>Karibu </h3>
 					<h3
 						className={styles.welcome_karibu}
-						style={{ letterSpacing: "2rem" }}>
+						style={{ letterSpacing: "1.95rem" }}>
 						TuLearn
 					</h3>
 				</div>
