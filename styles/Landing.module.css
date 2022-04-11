@@ -12,6 +12,8 @@
 	padding-left: 4rem;
 	color: white;
 	margin-left:-1.4rem;
+	width:100vw;
+	
 }
 
 .description p {
@@ -32,6 +34,25 @@
 		
 	}
 }
+
+
+@media screen and (min-width: 600px) {
+	.description {
+		margin-left: 2rem;
+		
+	}
+}
+
+
+
+@media screen and (min-width: 600px) {
+	.description p {
+		
+		padding-bottom: 8rem;
+	}
+}
+
+
 
 .welcome {
 	color: purple;
@@ -88,15 +109,21 @@
 
 @media screen and (max-width: 500px) {
 	.servicesdiv {
-		height: 80vh;
-		width: 130vw;
-		margin-left: 40%;
+	
+		height: 90vh;
+		width: 120vw;
+		margin-left: 25vw;
 		font-size:1.4rem;
 	
 	}
 }
 
 
+@media screen and (max-width: 320px) {
+	.servicesdiv{
+		margin-left:9rem;
+	}
+}
 
 
 .container {
@@ -107,7 +134,7 @@
 	display: flex;
 	flex: 1;
 	padding: 5rem 0;
-	padding-left: 20rem;
+	padding-left: 10rem;
 	height: 22vh;
 
 	font-size: 1.1rem;
@@ -122,5 +149,11 @@
 		line-height: 1.2rem;
 		padding-top: 2rem;
 		padding-left: 20rem;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.footer {
+		padding-left: 40rem;
 	}
 }

@@ -38,7 +38,7 @@ function Landing() {
 					<Link href="/units" passHref>
 						<Service
 							description="Test your knowledge on various topics."
-							title={" Revision  Questions"}
+							title={" Click for Revision  Questions"}
 						/>
 					</Link>
 				</div>
@@ -52,7 +52,7 @@ function Landing() {
 					<Link href="/units" passHref>
 						<Service
 							description="These worked out examples will guide you through as you learn."
-							title="Worked Out Examples"
+							title=" Click for Worked Out Examples"
 						/>
 					</Link>
 				</div>
@@ -66,7 +66,7 @@ function Landing() {
 					<Link href="/units" passHref>
 						<Service
 							description="Get more indepth knowledge on various complex topics."
-							title="Update your Notes"
+							title=" Click to Update your Notes"
 						/>
 					</Link>
 
@@ -78,7 +78,7 @@ function Landing() {
 				<footer>
 					<Image src="/welearn.jpg" 
 					alt=''
-					width={200} height={150} />
+					width={100} height={100} />
 				</footer>
 			</div>
 		</div>
