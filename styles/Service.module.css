@@ -1,7 +1,5 @@
 .servicesbtn{
-    
-  
-    color:blue;
+        color:blue;
     background-color:white;
    border:transparent;
     font-size:2.9rem;
@@ -13,9 +11,6 @@
   padding-bottom:1.2rem;
   font-weight:bold;
   margin-top:2rem;
- 
-  
-
 }
 .servicesbtn a {
 font-size:1.1rem;

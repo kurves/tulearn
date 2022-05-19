@@ -15,21 +15,15 @@
 	list-style: none;
 }
 
-
-
-
 .unitsbtn {
-	padding: 0.5rem;
+	padding: 0.6rem;
 	color: blue;
-
 	border: transparent;
 	font-size: 1.2rem;
 	cursor: pointer;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	transition: 0.2;
 	margin-top: 0.5rem;
- 
- 
 }
 .unitsbtndiv :hover{
 background-color:purple;
@@ -42,13 +36,11 @@ color:blueviolet;
 {
 	box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.2);
 	color: white;
-
 	background-color: purple;
 }
 
 .unitscontainer {
 	background-color: black;
-
 }
 
 
