@@ -2,9 +2,16 @@
 ## Introduction
 I created this simple learning app using Nextjs. I leveraged on it's page routing powers.I also relied heavily on react-pdf-viewer. I deployed the app on Vercel.
 
-## App Access
+### View appp on Vercel
 
 View app on [Tulearn app](https://tulearn.vercel.app)
+
+### Requirements
+To create this ap you'll need 
+
+- **Nextjs** - for web development
+- **Vercel** - to host your app 
+
 
 
 ### Dependencies
