@@ -8,14 +8,14 @@ View app on [Tulearn app](https://tulearn.vercel.app)
 
 
 ### Dependencies
-	- react-pdf-viewer/core
-	- react-pdf-viewer/default-layout
-        - next
-	- pdfjs-dist
-	-  react
-	- react-dom
-	- sharp
-	- worker-loader
+- react-pdf-viewer/core
+- react-pdf-viewer/default-layout
+- next
+- pdfjs-dist
+-  react
+- react-dom
+- sharp
+- worker-loader
 
 
 
