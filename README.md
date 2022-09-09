@@ -10,7 +10,7 @@ View app on [Tulearn app](https://tulearn.vercel.app)
 ### Dependencies
 	- react-pdf-viewer/core
 	- react-pdf-viewer/default-layout
-  - next
+        - next
 	- pdfjs-dist
 	-  react
 	- react-dom
