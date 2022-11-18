@@ -22,7 +22,7 @@ To create this ap you'll need
 -  react
 - react-dom
 - sharp
-- worker-loader
+
 
 
 
